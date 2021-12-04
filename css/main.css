@@ -1,0 +1,163 @@
+body{
+	font-size: 16px;
+	font-family:'Righteous', cursive;
+	font-weight: 300;
+	background-color: #376E6F;
+
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+/*-- menü --*/
+
+.menu {
+	text-align: right;
+	}
+.menu:hover{
+	color: whitesmoke;
+	}
+.rolam {
+	text-decoration: none;
+	color: black;
+}
+.fooldal {
+	text-decoration: none;
+	color: black;
+}
+.galeria {
+	text-decoration: none;
+	color: black;
+}
+.hogyankeszult {
+	text-decoration: none;
+	color: black;
+}
+
+.rolam:hover {
+	text-decoration: none;
+	color: whitesmoke;
+}
+.fooldal:hover {
+	text-decoration: none;
+	color: whitesmoke;
+}
+.galeria:hover {
+	text-decoration: none;
+	color: whitesmoke;
+}
+.hogyankeszult:hover {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+
+
+/*-- főoldal--*/
+.fokep {
+	text-align: center;
+}
+.bemutatkozas {
+	color: whitesmoke;
+	background-color: #1C3334;
+	text-align: center;
+
+}
+.kep1 img{
+	width: 300px ;
+	text-align: right;
+	float: right;
+
+}
+
+/*-- Hogyan készült? --*/
+#miert {
+	text-decoration-color: #DA7B93;
+}
+.eloterv
+.nehezseg
+div .hasznos {
+	color: whitesmoke;
+}
+/*--galéria--*/
+.kep_kartya p {
+	color: #DA7B93;
+	text-decoration: none;
+
+}
+.kepek_flex_racs a {
+	text-decoration: none;
+}
+.katt a {
+	color: #DA7B93;
+}
+
+.dali {
+	border: 1px #2E151B;
+	background-color: #2E151B;
+}
+
+
+		/*--kep_flex_racs--*/
+	.kepek_flex_racs{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 1rem;
+	}
+	.kepek_flex_racs .kep_kartya{
+		flex-grow: 1;
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+	}
+	.kep_kartya	.kep{
+		height: 10rem;
+		background-color: rgba(0,0,0,.03);
+		text-align: center;
+	}
+	.kep_kartya	.kep img{
+		width: 100%;
+		height: 100%;
+		/*max-height: 100%;
+		max-width: 100%;*/
+		object-fit: contain;
+	}
+	.kep_kartya	.kep:hover{
+		-webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.3);
+			-moz-box-shadow:    0 2px 12px 0 rgba(0,0,0,.3);
+			box-shadow: 0 2px 12px 0 rgba(0,0,0,.3);  
+			height: 450px; 
+		
+	}
+	.kep_kartya p{
+		font-size: 0.75rem;
+		padding-top: .4rem;
+	}
+	.kep_kartya span{
+		font-size: 0.68rem;
+	}
+/*--kep_flex_racs_end--*/
+
+/*--hogyan készült--*/
+.kepek_flex_racs2{
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: 1rem;
+	}
+	.kepek_flex_racs2 .kep_kartya{
+		flex-grow: 1;
+		margin-right: 1rem;
+		margin-bottom: 1rem;
+}
+
+
+/*-- footer--*/
+footer a {
+	text-decoration: none;
+	color: #DA7B93;
+}
